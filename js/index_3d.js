@@ -42,9 +42,9 @@ CONFIG.layers             = [
 ];
 /*-----------------------------------------------------------------------------------------------*/
 var vDemType                            = "TXT"; // TXT, PNG
-var vDemUrl                             = "http://cyberjapandata.gsi.go.jp/xyz/dem/{z}/{x}/{y}.txt";
+var vDemUrl                             = "http://staging.cyberjapandata.gsi.go.jp/xyz/dem/{z}/{x}/{y}.txt";
 //  vDemUrl                             = "./[@]/tile.gsi/{z}/{x}/{y}.png";
-var vDemUrl_Default                     = "http://cyberjapandata.gsi.go.jp/xyz/dem/{z}/{x}/{y}.txt"
+var vDemUrl_Default                     = "http://staging.cyberjapandata.gsi.go.jp/xyz/dem/{z}/{x}/{y}.txt"
 /*-----------------------------------------------------------------------------------------------*/
 var _Load_StyleZoom                     = false;
 var _Load_Data                          = null;
